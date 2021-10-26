@@ -39,11 +39,14 @@ The device specific network parameters such as IP address and network masks can 
 
 
 
-Testing
+TESTING
+
 1. USER AUHENTICATION
+
 The security authentication is provided via a unique user ID and corresponding passwords stored in the application database. If the information given by the user matches, access is granted otherwise restricted as shown by the respective figures.
 
 2. CONFIGURATION AND VALIDATION
+
 Input 1:	IP Address: 0.0.0.0
 Output 1:	Enter a proper class B address
 Input 2:	Address Mask: 255.0.0.0 
@@ -51,6 +54,7 @@ Output 2:	Enter a proper class B address
 Since the network is configured in a class B IP address space it expects the new configuration to be in the same address space. Hence, 0.0.0.0 is invalid and same case applies to the mask.
 
 3. ADDITION OF NEW DEVICES
+
 New devices can be easily added to the network by inserting corresponding details in the database. These details reflect immediately on the map. 
 
 Conclusion and Future Work

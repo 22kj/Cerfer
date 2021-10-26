@@ -7,6 +7,7 @@ The project implementation was a success and incorporated the following features
 Primarily, the key feature of any application related to a network must be secured access to the application. Cerfer hence authenticates any user before advancing to further levels. Figure 6 shows the login interface of Cerfer.
 
 2. MAP GENERATION
+
 i. With G-Maps
 The G-Maps interface is the primary view intended for nonprofessional users without specific domain expertise. Figure 7 shows the network consisting of core connected routers and the faulty devices (router in this case) as well as links highlighted with a red colour whereas the functioning devices are depicted in blue colour. On further exploring (incrementing zoom level) into the map, each core node decomposes into more detailed view of the network exhibiting individual components of the network.
 
@@ -49,6 +50,5 @@ Since the network is configured in a class B IP address space it expects the new
 New devices can be easily added to the network by inserting corresponding details in the database. These details reflect immediately on the map. 
 
 Conclusion and Future Work
-1. CONCLUSION
 With networks becoming increasingly complex, domain experts require some degree of network management, monitoring and automation. Cerfer is a web based automated monitoring tool that provides a very intuitive and interactive GUI, real time map generation and monitoring as well as system guided network configuration. The application is capable of generating a geo-network-map in real time hence the users can view their physical location of the device to better visualize the network. It identifies the network devices so that the user can make the network more robust by adding different types of devices and be able to monitor them. It views the details of specific devices allowing the users to monitor device specific parameters. It updates the map for status changes through which users can view real-time changes in the network and finally it allows as well as guides the user for configuring the devices within the network so that naïve users can use the application and manage the network as well. Currently, it is a simulation where the devices are stored as database entries. This will be a very useful application for about any organization that uses a network that needs to be managed and monitored without much domain specific expertise.
 

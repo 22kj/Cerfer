@@ -1,0 +1,4 @@
+enable
+show ip interface brief
+exit
+exit
